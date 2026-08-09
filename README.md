@@ -105,15 +105,19 @@ sql-cyber-threat-audit-engine/
 ```
 #  Step-by-Step Deployment & Execution Guide
 
-## Clone the enterprise repository
+## Step 1:Clone the enterprise repository
 
 ```bash
 git clone https://github.com/Elsamag/sql-cyber-threat-audit-engine.git
 ```
-## Navigate to sql directory and execute threat audit script
+## Step 2:Navigate to sql directory 
 
 ```bash
 cd sql-cyber-threat-audit-engine/sql
+```
+## Step 3:Execute threat audit script
+
+```bash
 psql -U admin -d cloudshield_logs -f threat_detection_query.sql
 ```
 ---
