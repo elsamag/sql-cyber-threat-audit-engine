@@ -10,7 +10,7 @@
 *Enterprise Practice:* Elsamag IT Solutions  
 *Target Profile:* [github.com/Elsamag](https://github.com/Elsamag)
 
----
+
 
 
 ## Executive Summary & Client Problem Narrative
@@ -58,7 +58,7 @@ HAVING
     SUM(bytes_transferred) > 50000000;
 
 
----
+
 ```
 ##  Empirical Performance Metrics & Live Terminal Preview
 
@@ -81,7 +81,7 @@ ak_live_33e108ab992d4f12           61,904,210 BYTES            FLAGGED [EXFILTRA
 
 
 
----
+
 ```
 ##  Repository Structure & Directory Layout
 
