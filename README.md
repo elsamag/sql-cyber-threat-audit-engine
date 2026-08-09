@@ -35,10 +35,10 @@ The solution deploys a multi-stage data aggregation pipeline leveraging the SQL 
 - **Memory Optimization**: Pre-aggregates log spikes before evaluating thresholds to preserve server buffer pools.
 - **SIEM Integration**: Readily integrates into automated alerting dashboards for instant IP/Key revocation.
 
-```
----
-##  Production Implementation Snippet
 
+
+##  Production Implementation Snippet
+---
 ```sql
 -- ============================================================================
 -- Enterprise Practice: Elsamag IT Solutions
@@ -103,10 +103,10 @@ sql-cyber-threat-audit-engine/
 
 ---
 ```
-##  Step-by-Step Deployment & Execution Guide
+#  Step-by-Step Deployment & Execution Guide
 
 ```bash
-# Clone the enterprise repository
+## Clone the enterprise repository
 git clone https://github.com/Elsamag/sql-cyber-threat-audit-engine.git
 ```
 ## Navigate to sql directory and execute threat audit script
