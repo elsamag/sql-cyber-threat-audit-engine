@@ -12,12 +12,12 @@
 
 ---
 
-## 
- Executive Summary & Client Problem Narrative
+
+## Executive Summary & Client Problem Narrative
 
 CloudShield Systems experienced severe API gateway infrastructure degradation and unauthorized data exfiltration risks due to unmonitored API key consumption. Legacy security pipelines performed unindexed row-by-row log parses, causing catastrophic database memory spikes and missing aggregate exfiltration spikes exceeding 50MB per API key.
 
-### The Client Problem & Workflow Comparison
+## The Client Problem & Workflow Comparison
 
 | Operational Metric | Legacy Manual Audit Workflow | Modern Elsamag SQL Threat Engine |
 | :--- | :--- | :--- |
@@ -36,6 +36,7 @@ The solution deploys a multi-stage data aggregation pipeline leveraging the SQL 
 - **SIEM Integration**: Readily integrates into automated alerting dashboards for instant IP/Key revocation.
 
 ```
+---
 ##  Production Implementation Snippet
 
 ```sql
@@ -108,7 +109,7 @@ sql-cyber-threat-audit-engine/
 # Clone the enterprise repository
 git clone https://github.com/Elsamag/sql-cyber-threat-audit-engine.git
 ```
-# Navigate to sql directory and execute threat audit script
+## Navigate to sql directory and execute threat audit script
 
 ```bash
 cd sql-cyber-threat-audit-engine/sql
