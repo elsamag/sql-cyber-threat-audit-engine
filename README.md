@@ -116,3 +116,14 @@ git clone https://github.com/Elsamag/sql-cyber-threat-audit-engine.git
 cd sql-cyber-threat-audit-engine/sql
 psql -U admin -d cloudshield_logs -f threat_detection_query.sql
 ```
+---
+
+> ### 💼 Enterprise Consultation & Retainer Inquiries
+>
+> **Need Custom Database Optimization & Analytics Infrastructure?**
+> 
+> **Elsamag IT Solutions** provides enterprise database optimization, automated reporting pipeline design, and high-performance SQL query tuning.
+>
+> * **Lead Technical Consultant:** Samuel Chinwendu Agu
+> * **GitHub Profile:** [github.com/Elsamag](https://github.com/Elsamag)
+> * **Direct Engagement:** Reach out via GitHub or Upwork for retainer inquiries, custom architecture audits, and database optimization contracts.
