@@ -35,6 +35,7 @@ The solution deploys a multi-stage data aggregation pipeline leveraging the SQL 
 - **Memory Optimization**: Pre-aggregates log spikes before evaluating thresholds to preserve server buffer pools.
 - **SIEM Integration**: Readily integrates into automated alerting dashboards for instant IP/Key revocation.
 
+```
 ##  Production Implementation Snippet
 
 ```sql
@@ -57,7 +58,7 @@ HAVING
 
 
 ---
-
+```
 ##  Empirical Performance Metrics & Live Terminal Preview
 
 - **Execution Latency:** `0.042 seconds`
@@ -80,7 +81,7 @@ ak_live_33e108ab992d4f12           61,904,210 BYTES            FLAGGED [EXFILTRA
 
 
 ---
-
+```
 ##  Repository Structure & Directory Layout
 
 ```text
@@ -100,7 +101,7 @@ sql-cyber-threat-audit-engine/
 
 
 ---
-
+```
 ##  Step-by-Step Deployment & Execution Guide
 
 ```bash
@@ -109,5 +110,7 @@ git clone https://github.com/Elsamag/sql-cyber-threat-audit-engine.git
 ```
 # Navigate to sql directory and execute threat audit script
 
+```bash
 cd sql-cyber-threat-audit-engine/sql
 psql -U admin -d cloudshield_logs -f threat_detection_query.sql
+```
