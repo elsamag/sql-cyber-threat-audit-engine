@@ -105,8 +105,9 @@ sql-cyber-threat-audit-engine/
 ```
 #  Step-by-Step Deployment & Execution Guide
 
-```bash
 ## Clone the enterprise repository
+
+```bash
 git clone https://github.com/Elsamag/sql-cyber-threat-audit-engine.git
 ```
 ## Navigate to sql directory and execute threat audit script
